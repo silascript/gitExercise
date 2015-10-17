@@ -16,6 +16,19 @@ git config --global user.name "xxxxx"
 git commit
 (提交时须填写变更log)
 
+///////////////////////////////////////
+
+远程提交步骤:
+1. 给远程仓库定义一个名字
+	git remote add 自定义名字 仓库URL(如 https://github.com/silascript/gitExercise.git)
+
+2. 先pull让本地与远程同步
+	git pull url(总之push报错就得先pull下)
+
+3. 使用push命令提交远程仓库
+	git push -u  仓库名 [master]
+
+
 
 
 
