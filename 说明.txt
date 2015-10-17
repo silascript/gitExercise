@@ -28,7 +28,10 @@ git commit
 3. 使用push命令提交远程仓库
 	git push -u  仓库名 [master]
 	(如果使用cygwin或MSys2，须要安装ca-certificates包)
+	提交要输入账号和密码
 
+////////////////////////////////////////////////////////
+	
 
 
 
