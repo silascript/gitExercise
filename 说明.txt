@@ -2,6 +2,21 @@
 
 git 建议一个项目步骤:
 
+1.初始化 
+git init
+
+2.添加
+git add *
+
+3.配置user.email和user.name
+git config --global user.email "xxxx@xxx.com"
+git config --global user.name "xxxxx"
+
+4.提交本地
+git commit
+(提交时须填写变更log)
+
+
 
 
 
